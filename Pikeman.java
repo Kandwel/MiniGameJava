@@ -1,8 +1,8 @@
 // Копейщик
 public class Pikeman extends Person {
-    public Pikeman(String name, int age)
+    public Pikeman(String name, int x, int y)
     {
-        super(name, 80, 30, age, 30, 50,"Pike", 20);
+        super(name, "Копьеносец", 80, 30, 35, 30, 50,"Pike", 20, x, y);
     }
 
     public void attack(Person person)

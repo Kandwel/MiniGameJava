@@ -4,9 +4,9 @@ public class Peasant extends Person {
     private int arrowsNum;
     boolean inGame = true;
 
-    public Peasant (String name, int age)
+    public Peasant (String name, int x, int y)
     {
-        super(name, 20, 1, age, 0, 20, "nothing", 20);
+        super(name, "Крестьянин", 20, 1, 24, 0, 20, "nothing", 20, x, y);
     }
 
     public void giveArrows(int val)

@@ -1,3 +1,4 @@
+package Behavior;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,5 +20,10 @@ public class Position {
     public int getY() {
         return y;
     }
-    
+
+    public double getDistance(Position target){
+        double targetDistance = Math.sqrt(Math.pow(target.x - x, 2) + (Math.pow(target.y - y, 2)));
+        return targetDistance;
+
+    }
 }

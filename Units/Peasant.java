@@ -1,3 +1,4 @@
+package Units;
 // Крестьянин
 public class Peasant extends Person {
 

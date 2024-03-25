@@ -1,3 +1,4 @@
+package Units;
 // Разбойник
 public class Robber  extends Person {
     public Robber (String name, int x, int y)

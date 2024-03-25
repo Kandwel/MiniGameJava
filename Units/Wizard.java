@@ -1,3 +1,4 @@
+package Units;
 // Колдун
 public class Wizard  extends Person {
 

@@ -1,3 +1,6 @@
+package Units;
+import Behavior.*;
+
 // Абстрактный класс персонажа
 public abstract class Person
 {
@@ -29,6 +32,6 @@ public abstract class Person
     @Override
     public String toString()
     {
-        return "\n[" + className + " --> " + name + " (age: " + age + ")" + " Position(x: " + position.x + ", y: " + position.y + ")];";
+        return "\n[" + className + " --> " + name + " (age: " + age + ")" + " Position(x: " + position.getX() + ", y: " + position.getY() + ")];";
     }
 }

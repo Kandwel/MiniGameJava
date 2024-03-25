@@ -1,3 +1,4 @@
+package Units;
 // Копейщик
 public class Pikeman extends Person {
     public Pikeman(String name, int x, int y)

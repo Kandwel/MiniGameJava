@@ -1,3 +1,5 @@
+package Units;
+
 // Монах
 public class Monk extends Person {
 

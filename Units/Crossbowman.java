@@ -1,13 +1,16 @@
-// Снайпер
-public class Sniper extends Person {
+package Units;
+
+// Арбалетчик
+public class Crossbowman extends Person {
 
     private int arrowsNum;
     boolean inGame = true;
 
-    public Sniper(String name, int x, int y)
+    public Crossbowman(String name, int x, int y)
     {
-        super(name, "Снайпер", 60, 40, 40, 20, 40, "gun",40, x, y);
+        super(name, "Арболетчик", 60, 40, 30, 20, 30, "Crossbow", 40, x, y);
     }
+
     public void attack(Person person)
     {
         person.health -= this.power;
